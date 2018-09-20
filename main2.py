@@ -27,4 +27,4 @@ dicionario["codigo"] = input()
 print("digite o preco do produto")
 dicionario["preco"] = input()
 
-db.collection("products").document("123").set(dicionario);
+db.collection("products").document().set(dicionario);
